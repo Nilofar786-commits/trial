@@ -2,6 +2,7 @@ package runner;
 
 import io.cucumber.junit.CucumberOptions;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 @io.cucumber.testng.CucumberOptions(

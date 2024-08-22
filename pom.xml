@@ -111,6 +111,12 @@
                 <version>3.2.5</version>
                 <configuration>
                     <suiteXmlFiles>${suiteXmlFile}</suiteXmlFiles>
+                    <systemPropertyVariables>
+                            <executionBrowser>{browser}</executionBrowser>
+                            <testEnv>{testEnv}</testEnv>
+
+                    </systemPropertyVariables>
+
                 </configuration>
             </plugin>
 
