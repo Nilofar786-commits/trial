@@ -1,2 +1,6 @@
 runner\loginPageRunner.class
+runner\InternetLoginRunner.class
+stepDef\MyHooks.class
 stepDef\RegisterPageStepDef.class
+stepDef\PersonalLoginPageStepDef.class
+stepDef\ParallelRun.class

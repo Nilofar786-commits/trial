@@ -87,6 +87,27 @@
             <version>7.15.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>info.cukes</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>1.2.5</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.picocontainer</groupId>
+            <artifactId>picocontainer</artifactId>
+            <version>2.14.3</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-picocontainer -->
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-picocontainer</artifactId>
+            <version>7.11.2</version>
+        </dependency>
+
+
 
 
     </dependencies>
@@ -111,6 +132,8 @@
                 <version>3.2.5</version>
                 <configuration>
                     <suiteXmlFiles>${suiteXmlFile}</suiteXmlFiles>
+                    <parallel>methods</parallel>
+                    <useUnlimitedThreads>true</useUnlimitedThreads>
                     <systemPropertyVariables>
                             <executionBrowser>{browser}</executionBrowser>
                             <testEnv>{testEnv}</testEnv>
@@ -134,6 +157,7 @@
                         <configuration>
                             <projectName>BankingProFramework</projectName>
                             <outputDirectory>${project.build.directory}/cucumber-report-html</outputDirectory>
+                           <!-- <outputDirectory>Reports</outputDirectory>-->
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
                         </configuration>
                     </execution>

@@ -2,6 +2,7 @@ package pages;
 
 import Helper.Helper;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -26,11 +27,12 @@ public class LoginPage {
         a=new Actions(driver);
     }
 
-    public void selectLoginOptionsmenu()
+    public void selectLoginOptionsmenu(Helper hpage)
     {
 
         WebElement loptiosmenu=driver.findElement(loginoptionsmenu);
         a.moveToElement(loptiosmenu).build().perform();
+        //hpage.captureScreenshot(driver);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
     }
 
@@ -49,10 +51,16 @@ public class LoginPage {
             System.out.println("Optionssssssssssssssssssssss"+el.getAttribute("text"));
             if(testToClick.equalsIgnoreCase("Personal "))
             {
+
+                if (driver instanceof JavascriptExecutor) {
+                    ((JavascriptExecutor)driver).executeScript("arguments[0].style.border='3px solid red'", el);
+                }
+                hpage.captureScreenshot(driver);
                 System.out.println("Clikinnggggg");
 
                 el.click();
-                hpage.captureScreenshot(driver);
+
+                //hpage.attcheScreenshot(driver);
                 break;
 
             }

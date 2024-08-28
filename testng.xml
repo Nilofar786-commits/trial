@@ -3,7 +3,8 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/mosin/IdeaProjects/BankingProFramework">
         <classes>
-            <class name="runner.loginPageRunner"></class>
+          <!--  <class name="runner.loginPageRunner"></class>-->
+            <class name="stepDef.ParallelRun"></class>
         </classes>
     </test>
 </suite>

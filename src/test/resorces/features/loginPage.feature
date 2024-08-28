@@ -1,7 +1,7 @@
-Feature: Register with kotak banking functionality
-  As a user of the kotak bank
+@RunOnly
+Feature: Register with ICICI banking functionality
+  As a user of the ICICI bank
   I want to be able to register with my account
-  so that i can access my account-related features and manage my banking
 
 
   Background: Successfully open the site
@@ -11,6 +11,8 @@ Scenario:Successfully click on login tab.
   Given mouseover on login tab.
   When click on personal link
   Then nagivate to Internet banking login page
+
+
 
 
 

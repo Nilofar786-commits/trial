@@ -1,27 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-22T10:12:39 IST" name="All Test Suite" finished-at="2024-08-22T10:13:32 IST" duration-ms="52433">
+  <suite started-at="2024-08-28T12:28:52 IST" name="All Test Suite" finished-at="2024-08-28T12:29:45 IST" duration-ms="52194">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.loginPageRunner@595b007d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepDef.ParallelRun@6069db50]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-08-22T10:12:39 IST" name="C:/Users/mosin/IdeaProjects/BankingProFramework" finished-at="2024-08-22T10:13:32 IST" duration-ms="52433">
-      <class name="runner.loginPageRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.loginPageRunner@595b007d]" started-at="2024-08-22T10:12:39 IST" name="setUpClass" finished-at="2024-08-22T10:12:40 IST" duration-ms="732" status="PASS">
+    <test started-at="2024-08-28T12:28:52 IST" name="C:/Users/mosin/IdeaProjects/BankingProFramework" finished-at="2024-08-28T12:29:45 IST" duration-ms="52194">
+      <class name="stepDef.ParallelRun">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:stepDef.ParallelRun@6069db50]" started-at="2024-08-28T12:28:52 IST" name="setUpClass" finished-at="2024-08-28T12:28:53 IST" duration-ms="386" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3610f277]]>
+                <![CDATA[org.testng.TestRunner@1e178745]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.loginPageRunner@595b007d]" started-at="2024-08-22T10:12:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-22T10:13:28 IST" duration-ms="47840" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepDef.ParallelRun@6069db50]" started-at="2024-08-28T12:28:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T12:29:40 IST" duration-ms="47124" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative Scenario of login to Internet Banking page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login with personal login option"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepDef.ParallelRun@6069db50]" started-at="2024-08-28T12:28:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T12:29:42 IST" duration-ms="48668" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully login to Internet Banking page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login with personal login option"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepDef.ParallelRun@6069db50]" started-at="2024-08-28T12:28:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T12:29:29 IST" duration-ms="35910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative Scenario of login to Internet Banking page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login with personal login option"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepDef.ParallelRun@6069db50]" started-at="2024-08-28T12:28:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T12:29:23 IST" duration-ms="30653" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,18 +78,34 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["Register with kotak banking functionality"]]>
+                <![CDATA["Register with ICICI banking functionality"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.loginPageRunner@595b007d]" started-at="2024-08-22T10:13:28 IST" name="tearDownClass" finished-at="2024-08-22T10:13:32 IST" duration-ms="3840" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:stepDef.ParallelRun@6069db50]" started-at="2024-08-28T12:28:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-28T12:29:28 IST" duration-ms="34713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Negative Scenario of login to Internet Banking page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["login with personal login option"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:stepDef.ParallelRun@6069db50]" started-at="2024-08-28T12:29:42 IST" name="tearDownClass" finished-at="2024-08-28T12:29:45 IST" duration-ms="3121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.loginPageRunner -->
+      </class> <!-- stepDef.ParallelRun -->
     </test> <!-- C:/Users/mosin/IdeaProjects/BankingProFramework -->
   </suite> <!-- All Test Suite -->
 </testng-results>

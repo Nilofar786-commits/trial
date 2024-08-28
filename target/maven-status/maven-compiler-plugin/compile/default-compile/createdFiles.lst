@@ -1,2 +1,3 @@
 Helper\Helper.class
 pages\LoginPage.class
+pages\LoginInternetBankingPage.class
