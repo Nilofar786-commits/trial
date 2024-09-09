@@ -4,7 +4,7 @@
     <test verbose="2" preserve-order="true" name="C:/Users/mosin/IdeaProjects/BankingProFramework">
         <classes>
           <!--  <class name="runner.loginPageRunner"></class>-->
-            <!--Parallel execution-->
+            <!--Parallel execution -->
             <class name="stepDef.ParallelRun"></class>
         </classes>
     </test>
